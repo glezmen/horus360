@@ -50,6 +50,7 @@ final class ViewerWindowController: NSWindowController {
         self.init(window: window)
 
         setupScene()
+        print("🟢 ViewerWindowController létrejött:", ObjectIdentifier(self))
     }
 
     func openImage(url: URL) {
